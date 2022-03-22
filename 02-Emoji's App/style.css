@@ -1,0 +1,84 @@
+html {
+    height: 100vh;
+}
+
+body {
+    padding: 10px;
+    background-image: url(https://images.unsplash.com/photo-1600689851799-a860e6b0ea77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80);
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#overlay {
+    position: fixed;
+    /* Sit on top of the page content */
+    width: 100%;
+    /* Full width (cover the whole page) */
+    height: 100%;
+    /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Black background with opacity */
+    z-index: -1;
+    /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer;
+    /* Add a pointer on hover */
+}
+
+#emoji-container {
+    margin: 50px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn,
+#unshift-btn {
+    background-color: #80D87F;
+}
+
+#shift-btn,
+#pop-btn {
+    background-color: #E23349;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    font-size: 3rem
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: white;
+    border-radius: 6px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: px;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 40px;
+}
