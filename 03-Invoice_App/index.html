@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice App</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="Project_container">
+    <div class="first-sec">
+        <h2 class="invoice-head">Invoice creator</h2>
+        <p class="invoice-p">Thanks for choosing GoodCorp, LLC!</p>
+    </div>
+        <div class="buttons">
+            <button class="btn" id="input-btn_1">Wash car: $10</button>
+            <button class="btn" id="input-btn_2">Mow Lawn: $20</button>
+            <button class="btn" id="input-btn_3">Pull Weeds: $30</button>
+        </div>
+        <div class="part_B">
+            <span class="task">Task</span>
+            <span class="total">Total</span>
+        </div>
+        <div id="services_container"></div>
+        <p class="line"></p>
+        <div class="part_C">
+            <span class="Notes">NOTES</span>
+            <span class="total_A">TOTAL AMOUNT</span>
+        </div>
+        <div>
+            <p id="notes"></p>
+            <p id="amt_in_num">$0</p>
+        </div>
+        
+        <button class="long_btn"><i class="fa fa-envelope"></i>&nbsp;&nbsp;Send invoice</button>
+    
+</section>
+    
+    <script src="index.js"></script>
+</body>
+</html>

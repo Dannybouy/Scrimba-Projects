@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a6c3c80015.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">Password Generator</h2>
+        <div class="result-container">
+            <span id="result"></span>
+            <button class="btn" id="clipboard"><i class="fa-solid fa-clipboard"></i></button>
+        </div>
+            <div class="setting">
+                <label for="length">Password length</label>
+                <input type="number" id="length" min="4" max="20">
+            </div>
+       
+         <div class="setting">
+                <label for="length">Include uppercase letters</label>
+                <input type="checkbox" id="uppercase" checked >
+        </div>
+        
+            <div class="setting">
+                <label for="length">Include lowercase letters</label>
+                <input type="checkbox" id="lowercase" checked >
+            </div>
+       
+            <div class="setting">
+                <label for="length">Include numbers</label>
+                <input type="checkbox" id="numbers" checked >
+            </div>
+        
+            <div class="setting">
+                <label for="length">Include symbols</label>
+                <input type="checkbox" id="symbols" checked >
+            </div>
+       
+        <button id="generate" class="btn btn-large">Generate password</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
